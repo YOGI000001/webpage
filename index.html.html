@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Business Brokers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">jBB. Victoria's Most Awarded Business Brokers</div>
+            <ul class="nav-links">
+                <li><a href="#Home">home</a></li>
+                <li><a href="#listings">Listings</a></li>
+                <li><a href="#Request An Appraisal">Request An Appraisal</a></li>
+                <li><a href="#JBB Blog">JBB Blog</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Welcome to Just Business Brokers</h1>
+                
+                <a href="#services" class="cta-button">Explore Services</a>
+            </div>
+        </section>
+
+      
+
+       
+
+     >
+        
+
+        <section id="listings" class="listings">
+            <h2> Featured Listing</h2>
+        
+            <div class="carousel">
+                <button class="nav-btn prev-btn">Prev</button>
+                <div class="carousel-track-container">
+                    <ul class="carousel-track">
+                        
+                        <li class="carousel-slide">
+                            <div class="listing">
+                                <img src="westsidefood-570x340.jpeg" alt="Cafe/Restaurant">
+                                <span class="featured-badge">FEATURED</span>
+                                <div class="price-tag">EOI INVITED</div>
+                                <p class="listing-title">5 DAY LICENSED CAFE/RESTAURANT</p>
+                            </div>
+                        </li>
+                        
+                        <li class="carousel-slide">
+                            <div class="listing">
+                                <img src="glass-570x340.jpg" alt="Maggie's Snacks & Liquor">
+                                <span class="featured-badge">FEATURED</span>
+                                <div class="price-tag">$198,000 + Stock</div>
+                                <p class="listing-title">MAGGIE'S SNACKS & LIQUOR – BRUNSWICK EAST</p>
+                            </div>
+                        </li>
+                        
+                        <li class="carousel-slide">
+                            <div class="listing">
+                                <img src="Crate2-570x340.jpg" alt="Takeaway Cafe">
+                                <span class="featured-badge">FEATURED</span>
+                                <div class="price-tag">$280,000 - $320,000</div>
+                                <p class="listing-title">TAKEAWAY CAFE – FOOTSCRAY</p>
+                            </div>
+                        </li>
+                        
+                         <li class="carousel-slide">
+                            <div class="listing">
+                                <img src="gettyimages-1164740662-170667a.jpg" alt="Takeaway Cafe">
+                                <span class="featured-badge">FEATURED</span>
+                                <div class="price-tag">$280,000 - $320,000</div>
+                                <p class="listing-title">TAKEAWAY CAFE – FOOTSCRAY</p>
+                            </div>
+                        </li>
+                         
+                         <li class="carousel-slide">
+                            <div class="listing">
+                                <img src="glass-570x340.jpg" alt="Takeaway Cafe">
+                                <span class="featured-badge">FEATURED</span>
+                                <div class="price-tag">$280,000 - $320,000</div>
+                                <p class="listing-title">TAKEAWAY CAFE – FOOTSCRAY</p>
+                            </div>
+                        </li>
+                        
+                        
+                        
+                    </ul>
+                </div>
+                <button class="nav-btn next-btn">Next</button>
+            </div>
+            <div class="carousel-nav">
+                <button class="carousel-indicator"></button>
+                <button class="carousel-indicator"></button>
+                <button class="carousel-indicator"></button>
+            </div>
+        </section>
+
+        <section id="why-choose-us" class="why-choose-us">
+            <h2>The JBB Difference – Why Choose Us?</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="noun-Award-1-no-watermark.png" alt="Award Winners">
+                    <h3>Award Winners</h3>
+                    <p>JBB are market leaders in the business broking industry and pride themselves on their excellent sales results and outstanding customer service.</p>
+                </div>
+                <div class="card">
+                    <img src="Noun-Experience-no-watermark.png" alt="Industry Experience">
+                    <h3>Industry Experience</h3>
+                    <p>In business since 2008, JBB are recognized throughout Victoria as a brand of quality and distinction with specialist market knowledge.</p>
+                </div>
+                <div class="card">
+                    <img src="Noun-networking-no-watermark.png" alt="Database Strength">
+                    <h3>Database Strength</h3>
+                    <p>Your business will get coverage with over 18,500 active buyers across our network and online, ensuring the right audience is reached.</p>
+                </div>
+                <div class="card">
+                    <img src="Noun-Sales-no-watermark.png" alt="Sales Success">
+                    <h3>Sales Success</h3>
+                    <p>Compared to the industry average, our success rate of 88.7% consistently outperforms the market, ensuring quality service and results.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="search-section">
+            <div class="container">
+                <h2>Search Listings</h2>
+                <form id="searchForm" action="search-results.html" method="GET">
+                    
+                    <div class="search-input">
+                        <input type="text" name="query" placeholder="Search by keyword..." required>
+                    </div>
+        
+                   
+                    <div class="search-filters">
+                        <select name="category">
+                            <option value="">All Categories</option>
+                            <option value="cafe">Cafes</option>
+                            <option value="restaurant">Restaurants</option>
+                            <option value="retail">Retail</option>
+                        </select>
+                        <select name="priceRange">
+                            <option value="">Price Range</option>
+                            <option value="0-50000">Under $50,000</option>
+                            <option value="50000-100000">$50,000 - $100,000</option>
+                            <option value="100000-500000">$100,000 - $500,000</option>
+                            <option value="500000-1000000">Above $500,000</option>
+                        </select>
+                        <select name="city">
+                            <option value="">Select City</option>
+                            <option value="melbourne">Melbourne</option>
+                            <option value="sydney">Sydney</option>
+                            <option value="brisbane">Brisbane</option>
+                            <option value="adelaide">Adelaide</option>
+                            <option value="perth">Perth</option>
+                        </select>
+                    </div>
+        
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+        
+        <section id="awards-section" class="awards">
+            
+            <div class="awards-grid">
+                <div class="award-item"><img src="awards-1831x4801.jpg" alt="Award 2017"></div>
+               
+            
+            </div>
+        </section>
+        
+        
+        
+    </main>
+
+    <footer id="contact">
+        <div class="footer-container">
+            
+            <div class="footer-contact">
+                <h2>Contact Us</h2>
+                <p>Email: <a href="mailto:info@justbusinessbrokers.com">info@justbusinessbrokers.com</a></p>
+                <p>Phone: <a href="tel:+18001234567">+1-800-123-4567</a></p>
+            </div>
+            
+<div class="follow-us-section">
+    <div class="container">
+        <h2>Follow Us</h2>
+        <p>Stay connected with us through social media for updates and news.</p>
+        <div class="social-icons">
+            <a href="" target="_blank">
+                <img src="fb.png" alt="Facebook">
+            </a>
+            <a href="" target="_blank">
+                <img src="twitter.png" alt="Twitter">
+            </a>
+            <a href="" target="_blank">
+                <img src="linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="" target="_blank">
+                <img src="insta.jpg" alt="Instagram">
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </div>
+</footer>
+
+
+    <div class="chat-container">
+        <button class="chat-button" onclick="Chat()">💬 Chat</button>
+        <div class="chat-box" id="chatBox">
+            <div class="chat-header">
+               
+                
+           
+    </div>
+    
+    
+    
+</body>
+</html>
